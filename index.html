@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Validation Form</title>
+</head>
+<body>
+    <h1 class="heading">From Validation</h1>
+    <form class="main-validation">
+        Enter name<input class="name-validation" type="text" >
+        <div class="name-error error"></div>
+
+        Enter Email <input class="email-validation" type="email">
+        <div class="email-error error"></div>
+
+        Enter Phone Number <input class="number-validation" type="number">
+        <div class="number-error error"></div>
+
+        Enter password<input class="password-validation" type="text">
+        <div class="password-error error"></div>
+
+        Reenter Password<input class="reenter-validation" type="password">
+        <div class="reenter-error error"></div>
+
+        <div class="submit-reset">
+            <input class="submit-validation" onclick="validate()" type="submit">
+            <input class="submit-validation" type="reset">
+        </div>
+        
+    </form>
+</body>
+<script src="./script.js"></script>
+</html>
